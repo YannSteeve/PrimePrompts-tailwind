@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BleuPrint</title>
+    <link rel="shortcut icon" href="assets/images/logo/logo-83.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen font-roboto">
+    <header class="w-full min-h-[75px] flex justify-center items-center border-b-2 border-opacity-20 border-black">
+        <nav class="w-full max-w-6xl flex justify-between items-center px-4">
+            <div class="flex items-center gap-4">
+                <img src="./assets/images/logo/logo-83.svg" alt="Logo" class="w-12 h-auto">
+                <h3 class="text-lg">BleuPrint</h3>
+            </div>
+            <div class="hidden md:flex gap-6">
+                <button class="px-4 py-2 text-lg border-none rounded-lg cursor-pointer transition-all duration-300 hover:bg-gray-200">Connexion</button>
+                <button class="px-6 py-2 text-lg bg-black text-white border-none rounded-lg cursor-pointer transition-all duration-300 hover:bg-opacity-80">Tester BleuPrint</button>
+            </div>
+            <div class="md:hidden">
+                <img src="assets/images/menu/menu.svg" alt="Menu">
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex justify-center flex-1">
+        <div class="w-full max-w-6xl flex flex-col items-center justify-around gap-8 p-5">
+            <div class="flex flex-col gap-6 items-center justify-center text-center">
+                <h1 class="text-4xl font-bold">
+                    Organisez vos prompts IA <br /> <span class="block md:inline">rapidement, efficacement.</span>
+                </h1>
+                <p class="text-lg font-normal hidden md:block"> 
+                    Une application simple pour gérer et retrouver <br /> facilement vos prompts IA
+                </p>
+                <p class="text-lg font-normal block md:hidden"> 
+                    Gérer et retrouver <br /> facilement <br /> vos prompts IA
+                </p>
+                <button class="px-6 py-2.5 text-lg bg-blue-600 text-white border-none rounded-lg cursor-pointer transition-all duration-300 hover:bg-opacity-80">Testez BleuPrint</button>
+            </div>
+            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex flex-col p-5 gap-5 rounded-lg bg-red-600 text-white">
+                    <img src="assets/images/Icons/ajout.svg" alt="add" class="w-12 h-auto">
+                    <h3 class="text-lg">Ajout de prompts</h3>
+                    <p class="text-base">Ajout de nouveaux prompts à votre <br /> collection en quelques clics</p>
+                </div>    
+                <div class="flex flex-col p-5 gap-5 rounded-lg bg-yellow-500 text-white">
+                    <img src="assets/images/Icons/classer.svg" alt="sort" class="w-12 h-auto">
+                    <h3 class="text-lg">Classer par catégorie</h3>
+                    <p class="text-base">Organisez les prompts en différentes <br /> catégories pour une gestion facile</p>
+                </div> 
+                <div class="flex flex-col p-5 gap-5 rounded-lg bg-green-500 text-white">
+                    <img src="assets/images/Icons/gerer.svg" alt="manage" class="w-12 h-auto">
+                    <h3 class="text-lg">Gérer les prompts</h3>
+                    <p class="text-base">Recherchez des prompts spécifiques,<br /> modifiez ou supprimez-les.</p>
+                </div> 
+            </div>    
+        </div>
+    </main>
+
+    <footer class="w-full h-36 flex justify-center bg-black text-white">
+        <div class="w-full max-w-6xl flex justify-between items-center p-5">
+            <div class="flex gap-6">
+                <p class="text-base">&copy; 2024 PrimePrompts Labs</p>
+                <p class="text-base">Mentions Légales</p>
+                <p class="text-base">Politique de confidentialité</p>
+            </div>
+            <div class="flex flex-col gap-5">
+                <div class="flex items-center gap-4">
+                    <img src="assets/images/logo/logo-83.svg" alt="Logo" class="w-12 h-auto">
+                    <h3 class="text-lg">BleuPrint</h3>  
+                </div>
+                <div class="flex justify-between">
+                    <a href="https://x.com/?lang=fr" class="flex items-center gap-2.5">
+                        <img src="assets/images/social/X.svg" alt="Twitter" class="w-6 h-6">
+                    </a>
+                    <a href="https://www.instagram.com" class="flex items-center gap-2.5">
+                        <img src="assets/images/social/Instagrame.svg" alt="Instagram" class="w-6 h-6">
+                    </a>
+                    <a href="https://linkedin.com" class="flex items-center gap-2.5">
+                        <img src="assets/images/social/LinkedIN.svg" alt="LinkedIN" class="w-6 h-6">
+                    </a>
+                    <a href="https://facebook.com" class="flex items-center gap-2.5">
+                        <img src="assets/images/social/Facebook.svg" alt="Facebook" class="w-6 h-6">
+                    </a>
+                    <a href="https://youtube.com" class="flex items-center gap-2.5">
+                        <img src="assets/images/social/Youtube.svg" alt="Youtube" class="w-6 h-6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
